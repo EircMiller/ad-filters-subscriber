@@ -18,11 +18,35 @@ application:
   rule:
     #远程订阅规则 （！使用前请删除下方示例配置, 注意缩进）
     remote:
-      - name: 'Subscription 1'
-        path: 'https://example.org/rule.txt' #仅支持 http/https，不限定响应内容格式
-
-      - name: 'Subscription 2'
-        path: 'http://example.org/rule.txt'
+      
+      - name: AdRules DNS List
+        path: https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt
+      - name: AWAvenue-Adblock-Rule
+        path: https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Adblock-Rule/main/AWAvenue-Adblock-Rule.txt
+      - name: halflife-list
+        path: https://cdn.jsdelivr.net/gh/sbwml/halflife-list@master/ad-pc.txt
+      - name: 大萌主
+        path: https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt         
+      - name: AdAway Default Blocklist
+        path: https://adaway.org/hosts.txt                   
+      - name: adguard DNS
+        path: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt  
+      - name: 大圣净化
+        path: https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
+      - name: uniartisan's Adblock List
+        path: https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock.txt  
+      - name: AdRules AdBlock List
+        path: https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock.txt
+      - name: adblock-rules
+        path: https://raw.githubusercontent.com/Cats-Team/AdRules/main/mod/rules/adblock-rules.txt
+      - name: ub防卡顿
+        path: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt
+      - name: ub默认
+        path: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt
+      - name: 反网站adblock检测
+        path: https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt        
+      - name: 反网站adblock检测
+        path: https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
 
     #本地规则文件
     local:
@@ -45,7 +69,7 @@ application:
         - DOMAIN  #域名规则，仅完整域名
         - REGEX   #正则规则，包含正则的域名规则
         - MODIFY  #修饰规则，添加了一些修饰符号的规则
-        - HOSTS   #Hosts规则
+        #- HOSTS   #Hosts规则
       dns.txt:
         - DOMAIN
         - REGEX
