@@ -22,7 +22,7 @@ application:
       - name: AdRules DNS List
         path: https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt
       - name: AWAvenue-Adblock-Rule
-        path: https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Adblock-Rule/main/AWAvenue-Adblock-Rule.txt
+        path: https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt
       - name: halflife-list
         path: https://cdn.jsdelivr.net/gh/sbwml/halflife-list@master/ad-pc.txt
       - name: 大萌主
