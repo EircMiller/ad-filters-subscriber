@@ -36,10 +36,7 @@ application:
 
   output:
     files:
-      file-header: |
-      Title: ${www Adblock List}
-      Last Modified: ${date}
-      Homepage: https://github.com/fordes123/ad-filters-subscriber/
+     
       - name: easylist.txt
         type: easylist
         filter:
