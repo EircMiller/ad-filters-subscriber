@@ -39,7 +39,6 @@ application:
      
       - name: easylist.txt
         type: easylist
-
         filter:
           - basic
           - wildcard
