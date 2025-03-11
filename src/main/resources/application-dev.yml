@@ -5,25 +5,34 @@ logging:
 application:
   rule:
     remote:
-      - name: AdGuard 基础过滤器
-        path: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt
-        type: easylist
-
-      - name: Loyalsoldier/clash-rules 广告域名列表
-        path: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt
-        type: clash
-
-      - name: 1Hosts mini
-        path: https://raw.githubusercontent.com/badmojr/1Hosts/master/mini/hosts.txt
-        type: hosts
-
-      - name: anti-ad smartdns
-        path: https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-smartdns.conf
-        type: smartdns
-
-      - name:
-        path: https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/adblock-for-dnsmasq.conf
-        type: dnsmasq
+      - name: AdRules DNS List
+        path: https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt
+      - name: AWAvenue-Adblock-Rule
+        path: https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt
+      - name: halflife-list
+        path: https://cdn.jsdelivr.net/gh/sbwml/halflife-list@master/ad-pc.txt
+      - name: 大萌主
+        path: https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt         
+      - name: AdAway Default Blocklist
+        path: https://adaway.org/hosts.txt                   
+      - name: adguard DNS
+        path: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt  
+      - name: 大圣净化
+        path: https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
+      - name: uniartisan's Adblock List
+        path: https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock.txt  
+      - name: AdRules AdBlock List
+        path: https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock.txt
+      - name: adblock-rules
+        path: https://raw.githubusercontent.com/Cats-Team/AdRules/main/mod/rules/adblock-rules.txt
+      - name: ub防卡顿
+        path: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt
+      - name: ub默认
+        path: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt
+      - name: 反网站adblock检测
+        path: https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt        
+      - name: 反网站adblock检测
+        path: https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
 
   output:
     files:
