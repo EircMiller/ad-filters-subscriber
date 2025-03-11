@@ -40,8 +40,6 @@ application:
       - name: easylist.txt
         type: easylist
         file-header: |
-            
-      Title: ${name}
       Last Modified: ${date}
         filter:
           - basic
