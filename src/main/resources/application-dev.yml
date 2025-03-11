@@ -39,8 +39,7 @@ application:
      
       - name: easylist.txt
         type: easylist
-        file-header: |
-        ADFS Adblock List
+
         filter:
           - basic
           - wildcard
