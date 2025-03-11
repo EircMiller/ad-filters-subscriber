@@ -35,17 +35,14 @@ application:
         path: https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
 
   output:
-   file_header: |
-      ADFS Adblock List
-      Title: ${name}
-      Last Modified: ${date}
-      Homepage: https://github.com/fordes123/ad-filters-subscriber/
-    
-    
-    files:
+        files:
      
       - name: easylist.txt
         type: easylist
+        file-header: |
+            
+      Title: ${ ADFS Adblock List}
+      Last Modified: ${date}
         filter:
           - basic
           - wildcard
