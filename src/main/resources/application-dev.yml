@@ -41,7 +41,7 @@ application:
         type: easylist
         file-header: |
             
-      Title: ${ ADFS Adblock List}
+      Title: ${name}
       Last Modified: ${date}
         filter:
           - basic
