@@ -39,7 +39,7 @@ application:
       - name: easylist.txt
         type: easylist
         file-header: |
-      ADFS Adblock List
+   
       Title: ${www Adblock List}
       Last Modified: ${date}
       Homepage: https://github.com/fordes123/ad-filters-subscriber/
