@@ -35,8 +35,7 @@ application:
         path: https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
 
   output:
-  files:
-     
+    files:
       - name: easylist.txt
         type: easylist
         filter:
