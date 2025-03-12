@@ -45,11 +45,6 @@ application:
 
       - name: dns.txt
         type: easylist
-      file_header: |
-      [ADFS Adblock List]
-      ! Title: ${name}
-      ! Last Modified: ${date}
-      ! Homepage: https://github.com/fordes123/ad-filters-subscriber/
         filter:
           - basic
           - wildcard
